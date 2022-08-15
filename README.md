@@ -1,2 +1,2 @@
 # edwinotten.com
-edwinotten.com website
+View static website here: https://edwinotten.github.io/edwinotten.com/
