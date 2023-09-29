@@ -12,10 +12,13 @@
   
   <!-- Styling -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
-
+    
   <!-- Favicons -->
   <meta name="theme-color" content="#712cf9">
+
+  <!-- Lazy load bootstrap icons -->
+  <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"></noscript>
 </head>
 
 <body>
@@ -30,7 +33,7 @@
             <p class="lead">My name is Edwin, I'm an Azure Cloud specialist with a track-record of 10+ years developing full-stack web applications.</p>
           </div>
           <div class="col-10 col-sm-8 col-md-6 col-lg-4 offset-1 offset-sm-2 offset-md-0">
-            <img src="./portrait-edwin-otten.jpeg" class="d-block mx-lg-auto img-fluid rounded" alt="Portrait photo of Edwin Otten" width="800" height="800" loading="lazy">
+            <img src="./portrait-edwin-otten.webp" class="d-block mx-lg-auto img-fluid rounded" alt="Portrait photo of Edwin Otten" width="400" height="400" loading="eager">
           </div>
         </div>
       </div>
@@ -48,7 +51,7 @@
             </div>
           </div>
           <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden">
-            <img src="https://raw.githubusercontent.com/EdwinOtten/sportlink_to_mailchimp/master/readme_assets/screenshot.png" alt="Screenshot of the sportlink_to_mailchimp application" width="720">
+            <img src="https://raw.githubusercontent.com/EdwinOtten/sportlink_to_mailchimp/master/readme_assets/screenshot.png" alt="Screenshot of the sportlink_to_mailchimp application" width="675" height="445" loading="lazy">
           </div>
         </div>
       </div>
